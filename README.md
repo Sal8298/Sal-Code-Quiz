@@ -21,6 +21,9 @@ This is a Quiz on basic Javascript knowledge. The purpose of building this wepag
         
 - Here is a screenshot of the site:
 
+![Sal-Code-Quiz](./assets/images/webpage-screenshot.png)
+
+
 ## Credits
 
 - Garrett Winter (https://github.com/garrettWinter)
