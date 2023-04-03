@@ -17,6 +17,10 @@ header {
     padding-bottom: 10px;
 }
 
+#timer{
+    padding-right: 10px;
+}
+
 #viewHighScores {
     font-size: 20px;
 }
@@ -29,6 +33,7 @@ header {
 
 h1 {
     padding-bottom: 15px;
+    font-size: 30px;
 }
 
 #quizContainer {
