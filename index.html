@@ -12,14 +12,15 @@
 
 <body>
     <header>
-        <h2 id="view-high-scores">View High Scores</h2>
+        <h2 id="viewHighScores">View High Scores</h2>
         <h2 class="timer">Time: <span id="timer"></span></h2>
     </header>
 
     <div id="ruleContainer">
         <div class="container">
             <h1>Sal Javascript Code Quiz</h1>
-            <p>Try answering the following questions about Javascript within the time limit. Correct answers are worth 10 points. Choosing an incorrect answer will decrease score by 2 and timer by 2 seconds.</p>
+            <p>Try answering the following questions about Javascript within the time limit. Correct answers are worth
+                10 points. Choosing an incorrect answer will decrease score by 2 and timer by 2 seconds.</p>
         </div>
     </div>
 
@@ -28,11 +29,11 @@
             <div id="questionContainer">
                 <p id="question">Questions</p>
                 <div id="optionContainer">
-                    <ul class="optionList">
-                        <li id="option1">Option 1</li>
-                        <li id="option2">Option 2</li>
-                        <li id="option3">Option 3</li>
-                        <li id="option4">Option 4</li>
+                    <ul>
+                        <li class="optionList" id="option1">Option 1</li>
+                        <li class="optionList" id="option2">Option 2</li>
+                        <li class="optionList" id="option3">Option 3</li>
+                        <li class="optionList" id="option4">Option 4</li>
                     </ul>
                     <p class="answerFeedback"></p>
                 </div>
@@ -40,11 +41,11 @@
         </div>
 
         <div id="buttonContainer">
-            <button class="startBtn">Start The Quiz!</button>
+            <button class="submitBtn">Start The Quiz!</button>
             <button class="submitBtn">Submit Score</button>
-            <button>Play Again</button>
-            <div class="scoreHeader">Score: </div>
-            <div class="scoreValue">0</div>
+            <button class="submitBtn">Play Again</button>
+            <div id="scoreHeader">Score: </div>
+            <div id="scoreValue">0</div>
         </div>
 
         <div id="scoreContainer">
@@ -56,7 +57,7 @@
                         <button class="submitBtn">Clear</button>
                     </form>
                 </div>
-                <p id="highscoreContainer">Top Five Scores:</p>
+                <p id="highscoreHeader">Top Five Scores:</p>
                 <ul>
                     <li class="scoreList"><span>None yet. How sad!</span></li>
                     <li class="scoreList"><span>None yet. How sad!</span></li>

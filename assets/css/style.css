@@ -1,3 +1,81 @@
 * {
-    background-color: aquamarine;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(176, 255, 255);
+}
+
+header {
+    background-color: palevioletred;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#viewHighScores {
+    font-size: 20px;
+}
+
+#ruleContainer {
+    padding: 30px;
+    border:2px solid black;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+#quizContainer {
+    padding: 30px;
+    border:2px solid black;
+    text-align: center;
+}
+
+#question {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.optionList {
+    padding: 5px;
+    font-size: 20px;
+}
+
+#buttonContainer {
+    padding: 30px;
+    border:2px solid black;
+    text-align: center;
+}
+
+.submitBtn {
+    padding: 10px;
+}
+
+#scoreHeader{
+    padding-top: 30px;
+}
+
+#scoreContainer {
+    padding: 30px;
+    border:2px solid black;
+    text-align: center;
+}
+
+#highscoreHeader {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.scoreList {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
 }
