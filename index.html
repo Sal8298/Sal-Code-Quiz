@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,70 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Sal Javascript Code Quiz</title>
 </head>
+
 <body>
     <header>
-        <h1>Sal Javascript Code Quiz</h1>
-
+        <h2 id="view-high-scores">View High Scores</h2>
+        <h2 class="timer">Time: <span id="timer"></span></h2>
     </header>
 
     <div>
-
+        <div>
+            <h1>Sal Javascript Code Quiz</h1>
+            <p>Rules go here.</p>
+            <button>Start The Quiz!</button>
+        </div>
     </div>
 
-    <footer>
+    <main>
+        <div class="quizBox">
+            <div class="questionBox">
+                <p>Questions</p>
+                <div class="optionBox">
+                    <ul class="optionList">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p class="answerFeedback"></p>
+                </div>
+            </div>
+        </div>
 
+        <div class="buttonBox">
+            <button>Start Quiz</button>
+            <button>Submit Score</button>
+            <button>Play Again</button>
+            <div class="scoreHeader">Score: </div>
+            <div class="scoreValue"></div>
+        </div>
+
+        <div>
+            <div>
+                <div>
+                    <form>
+                        <input>
+                        <button>Submit</button>
+                        <button>Clear</button>
+                    </form>
+                </div>
+                <p>Top Five Scores:</p>
+                <ul>
+                    <li><span>None yet. How sad!</span></li>
+                    <li><span>None yet. How sad!</span></li>
+                    <li><span>None yet. How sad!</span></li>
+                    <li><span>None yet. How sad!</span></li>
+                    <li><span>None yet. How sad!</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5>Salahuddin Asim Imdad Copyright 2023, with no rights reserved</h5>
     </footer>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
